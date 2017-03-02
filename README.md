@@ -4,10 +4,16 @@
 
 License is The GNU General Public License v3.0. If you like to use this code for commercial uses (recover ad revenue on your website or app) and do not want to open and distribute your code, contact me at tima@getdrizzle.com to buy commercial license. Commercial license includes analytics app (https://vimeo.com/206459892), which allows you to monitor number of Adblock users and number of users who decided to turn off Adblock on your website or app.
 
-##Demo
+##Live examples
 
 Go to this page with enabled Adblock, scroll page:
 http://asiatoworld.com/2016/07/17/china-unveils-giant-sculpture-of-chinese-god-of-war-guan-yu/
+
+More examples:
+
+http://www.math-aids.com/Word_Games/
+
+http://www.oneindia.com/temp/oneindia-drizzle.html
 
 ##Why we build this detector.
 
