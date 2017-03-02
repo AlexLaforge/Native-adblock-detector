@@ -5,8 +5,15 @@
 License is The GNU General Public License v3.0. If you like to use this code for commercial uses (recover ad revenue on your website or app) and do not want to open and distribute your code, contact me at tima@getdrizzle.com to buy commercial license. Commercial license includes analytics app (https://vimeo.com/206459892), which allows you to monitor number of Adblock users and number of users who decided to turn off Adblock on your website or app.
 
 ##Why we build this detector.
+Short answer:
+
+Long answer can be found here:
+https://medium.com/@getdrizzle/adblock-detection-technical-and-ux-considerations-12731873c0df#.uuxv21b0f
+https://medium.com/@getdrizzle/big-shifts-in-online-content-monetization-bdebd920bf4b#.ecw88igpq
 
 ##Is it for you?
+
+
 
 ##How to install
 1. Run `npm install`.
