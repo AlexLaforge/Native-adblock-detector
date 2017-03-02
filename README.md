@@ -6,10 +6,11 @@ License is The GNU General Public License v3.0. If you like to use this code for
 
 ##Why we build this detector.
 Short answer:
+- 
 
 Long answer can be found here:
-1. https://medium.com/@getdrizzle/adblock-detection-technical-and-ux-considerations-12731873c0df#.uuxv21b0f
-1. https://medium.com/@getdrizzle/big-shifts-in-online-content-monetization-bdebd920bf4b#.ecw88igpq
+- https://medium.com/@getdrizzle/adblock-detection-technical-and-ux-considerations-12731873c0df#.uuxv21b0f
+- https://medium.com/@getdrizzle/big-shifts-in-online-content-monetization-bdebd920bf4b#.ecw88igpq
 
 ##Is it for you?
 
