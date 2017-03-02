@@ -1,10 +1,10 @@
 # Native Adblock Detector
 
-##Instruction
+##Instructions
 1. Run `npm install`.
 1. Create `settings.json` configuration file. There is an example file 'settings.json.example', copy/paste and change all necessary attributes.
 1. Run `gulp build`.
-1. Copy `./build/script.js`, wrap code into `<script>` tag and paste to the <head>...</head> section of your website.
+1. Copy `./build/script.js`, wrap code into `<script>` tag and paste to the `<head>...</head>` section of your website.
 
 Optional: If you want show warning & redirect when Javascript disabled, add below code to html file.
 
