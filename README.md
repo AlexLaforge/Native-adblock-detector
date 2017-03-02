@@ -6,7 +6,7 @@ License is The GNU General Public License v3.0. If you like to use this code for
 
 ##Live examples
 
-Go to this page with enabled Adblock, scroll page:
+Go to this page with Adblock enabled, and scroll down the page:
 http://asiatoworld.com/2016/07/17/china-unveils-giant-sculpture-of-chinese-god-of-war-guan-yu/
 
 More examples:
@@ -15,15 +15,15 @@ http://www.math-aids.com/Word_Games/
 
 http://www.oneindia.com/temp/oneindia-drizzle.html
 
-##Why we build this detector.
+##Why we built this detector.
 
 **Short answer:**
-- Publishers and content creators with great content lose revenue and go out of business. Readers are willing to whitelist website or pause Adblock in exchange for great content. Most publishers and content creators have never communicated with visitors directly. Thus this product.
-- Most of publishers and content creators do not know how to implement paywall and membership systems, adblock detector is much easier to implement and it is easier to turn off Adblock than to pay.
+- Publishers and creators with great content are losing revenue and going out of business. However, readers are willing to whitelist a website or pause Adblock in exchange for great content. Most publishers and content creators have never communicated directly with their visitors about this. Thus, we built this product.
+- Most publishers and content creators do not know how to implement a paywall and membership system. Adblock detection is much easier to implement. It's also easier for website visitors to support a website by disabling Adblock than by making a payment.
 
-Having said, there are many things to consider while implementing detector. We put the best user experience and technology practices into this detector.
-- Adblock, Adblock Plus and other extensions can block detectors which are implemented via external JS code (adblocking is done via blacklisting external resources). Thus we implemented detector natively.
-- Popups are fundamentally evil for user experience. Plus Google punishes SEO of websites with popups. This detector allows visitors to read content and scroll pages for X number of pixels. X is set by website owner. This teaser approach reduces bounce rate by 2X and increase conversion rate by 2X, without hurting site's SEO.
+Having said that, there are many things to consider while implementing an Adblock detector. We put the best user experience and technology practices into this detector.
+- Adblock, Adblock Plus and other extensions can block detectors which are implemented via external JS code (adblocking is done via blacklisting external resources). Thus we implemented this detector natively.
+- Popups are fundamentally evil for the user experience. Plus Google punishes the SEO rank of websites with popups. This detector allows visitors to read content and scroll pages for X number of pixels. X is set by website owner. This teaser approach reduces bounce rate by 2X and increases conversion rate by 2X, without hurting the site's SEO.
 
 
 **Long answer can be found here:**
@@ -65,7 +65,7 @@ Optional: If you want show warning & redirect when Javascript disabled, add belo
 ```
 
 ##Settings
-Specify settings so footer bar with message matches your brand. You can modify text, colors and add extra buttons to the bar. Text can modified so you can use languages other than English.
+Specify settings so footer bar with message matches your brand. You can modify text, colors and add extra buttons to the bar.  Text can be modified for languages other than English.
 
 Three important attributes are `canClose`, `urlRules` and `excludeUrlRules`.
 
