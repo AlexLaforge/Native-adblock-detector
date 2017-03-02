@@ -1,0 +1,111 @@
+.jPanelMenu {
+  overflow-x: initial !important;
+}
+
+.drizzle--dark-screen {
+  position: fixed !important;
+  z-index: 999 !important;
+  left: 0 !important;
+  top: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  overflow: auto !important;
+  background-color: black !important;
+  opacity: 0.3;
+}
+
+.drizzle--block-scroll {
+  overflow: hidden !important;
+}
+
+.drizzle--footer-bar {
+  position: fixed !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  align-items: center !important;
+  width: 100% !important;
+  height: 70px !important;
+  border-top: rgba(0, 0, 0, 0.1) !important;
+  z-index: 2900000000;
+
+  .drizzle--action-container {
+    position: relative !important;
+    height: 60px !important;
+    //width: 220px !important;
+    display: inherit !important;
+
+    .drizzle--button {
+      font-weight: 400 !important;
+      border-radius: 4px !important;
+      border: none !important;
+      color: white !important;
+      font-size: 16px !important;
+      letter-spacing: 0.01em !important;
+      padding: 10px 15px !important;
+      outline: 0 !important;
+      transition: all 0.2s ease !important;
+      text-align: center !important;
+      text-decoration: none !important;
+      height: auto !important;
+      line-height: 1.5em !important;
+      box-shadow: none !important;
+      margin: 8px 10px !important;
+    }
+
+    .drizzle--button:hover {
+      margin: 5px 10px !important;
+    }
+
+    a.drizzle--button:hover {
+      padding-top: 13px !important;
+    }
+
+    @media only screen and (max-width: 850px) {
+      .drizzle--second-button2 {
+        display: none !important;
+      }
+    }
+
+    @media only screen and (max-width: 690px) {
+      flex: 1 !important;
+      display: flex !important;
+      align-items: center !important;
+      width: 90% !important;
+      .drizzle--button {
+        width: 80% !important;
+        margin: auto !important;
+      }
+
+      .drizzle--button:hover {
+        margin: auto !important;
+      }
+
+      .drizzle--second-button {
+        display: none !important;
+      }
+    }
+  }
+
+  .drizzle--call-to-action-text {
+    flex: 1 !important;
+    text-align: center !important;
+    font-size: 18px !important;
+    letter-spacing: 0.01em !important;
+    color: white !important;
+
+    @media only screen and (max-width: 690px) {
+      display: none !important;
+    }
+  }
+
+  .drizzle--close-button {
+    position: absolute !important;
+    right: 15px !important;
+    top: 10px !important;
+    cursor: pointer !important;
+    color: white !important;
+  }
+
+  @import 'modal';
+  @import 'tabs';
+}

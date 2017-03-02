@@ -1,0 +1,31 @@
+{
+  "pixel": 400,
+  "uiConfig": {
+    "callToActionText": "Ads help us create great content. Please pause Adblock or whitelist our domain.",
+    "buttonText": "OK, I turned off Adblock",
+    "buttonBackgroundColor": "#4cad41",
+    "footerBackgroundColor": "#0095e8",
+    "canClose": true,
+    "font": "Lato",
+    "showDarkScreen":  true,
+    "modalTitle": "How to turn off",
+    "mobileModalTitle": "How to turn off on Mobile",
+    "afterCheckText": "Your Adblock is still enabled. Please see above instructions."
+  },
+  "extraButtonConfig": {
+    "isEnabled": true,
+    "buttonText": "Become a member",
+    "buttonBackgroundColor": "#4cad41",
+    "destinationURL": "https://google.com/"
+  },
+  "extraButton2Config": {
+    "isEnabled": false,
+    "buttonText": "Go2 ad-free for $1/mo",
+    "buttonBackgroundColor": "#4fad41",
+    "destinationURL": "https://facebook.com/"
+  },
+  "urlRules": [
+    "http://example.com/.+"
+  ],
+  "excludeUrlRules": []
+}
