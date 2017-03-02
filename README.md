@@ -11,7 +11,7 @@ http://asiatoworld.com/2016/07/17/china-unveils-giant-sculpture-of-chinese-god-o
 
 ##Why we build this detector.
 
-Short answer:
+**Short answer:**
 - Publishers and content creators with great content lose revenue and go out of business. Readers are willing to whitelist website or pause Adblock in exchange for great content. Most publishers and content creators have never communicated with visitors directly. Thus this product.
 - Most of publishers and content creators do not know how to implement paywall and membership systems, adblock detector is much easier to implement and it is easier to turn off Adblock than to pay.
 
@@ -20,15 +20,17 @@ Having said, there are many things to consider while implementing detector. We p
 - Popups are fundamentally evil for user experience. Plus Google punishes SEO of websites with popups. This detector allows visitors to read content and scroll pages for X number of pixels. X is set by website owner. This teaser approach reduces bounce rate by 2X and increase conversion rate by 2X, without hurting site's SEO.
 
 
-Long answer can be found here:
+**Long answer can be found here:**
 - https://medium.com/@getdrizzle/adblock-detection-technical-and-ux-considerations-12731873c0df#.uuxv21b0f
 - https://medium.com/@getdrizzle/big-shifts-in-online-content-monetization-bdebd920bf4b#.ecw88igpq
 
 ##Is it for you?
 Good framework to decide is to ask yourself questions: 
-"Will I pay for content on my website?"
-"Can I find content similar to mine somewhere else and it's free?". 
+*"Will I pay for content on my website?"
+"Can I find content similar to mine somewhere else and it's free?"*
 If answer is No/Yes, then you should not use this detector.
+If answer is Maybe/Maybe or Yes/Not really - then you should use this detector or even install paywall/membership.
+We plan to open-source paywall/membership product as well, stay tuned.
 
 
 ##How to install
@@ -57,8 +59,11 @@ Optional: If you want show warning & redirect when Javascript disabled, add belo
 Specify settings so footer bar with message matches your brand. You can modify text, colors and add extra buttons to the bar. Text can modified so you can use languages other than English.
 
 Three important attributes are `canClose`, `urlRules` and `excludeUrlRules`.
+
 `canClose` - set to false if you want to prevent visitors from closing footer bar with message.
-`urlRules` - list URLs on where you want to show detector. `example.com/.+` shows detector on all pages except homepage.
+
+`urlRules` - list URLs where you want to show detector. For example, `example.com/.+` shows detector on all pages of example.com website except homepage.
+
 `excludeUrlRules`- list URLs where you do not want to show detector. `example.com/newsletter` does not show detector on that page.
 
 ```
