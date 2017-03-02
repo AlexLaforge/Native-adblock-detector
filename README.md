@@ -4,6 +4,11 @@
 
 License is The GNU General Public License v3.0. If you like to use this code for commercial uses (recover ad revenue on your website or app) and do not want to open and distribute your code, contact me at tima@getdrizzle.com to buy commercial license. Commercial license includes analytics app (https://vimeo.com/206459892), which allows you to monitor number of Adblock users and number of users who decided to turn off Adblock on your website or app.
 
+##Demo
+
+Go to this page with enabled Adblock, scroll page:
+http://asiatoworld.com/2016/07/17/china-unveils-giant-sculpture-of-chinese-god-of-war-guan-yu/
+
 ##Why we build this detector.
 
 Short answer:
@@ -20,7 +25,10 @@ Long answer can be found here:
 - https://medium.com/@getdrizzle/big-shifts-in-online-content-monetization-bdebd920bf4b#.ecw88igpq
 
 ##Is it for you?
-
+Good framework to decide is to ask yourself questions: 
+"Will I pay for content on my website?"
+"Can I find content similar to mine somewhere else and it's free?". 
+If answer is No/Yes, then you should not use this detector.
 
 
 ##How to install
@@ -46,6 +54,13 @@ Optional: If you want show warning & redirect when Javascript disabled, add belo
 ```
 
 ##Settings
+Specify settings so footer bar with message matches your brand. You can modify text, colors and add extra buttons to the bar. Text can modified so you can use languages other than English.
+
+Three important attributes are `canClose`, `urlRules` and `excludeUrlRules`.
+`canClose` - set to false if you want to prevent visitors from closing footer bar with message.
+`urlRules` - list URLs on where you want to show detector. `example.com/.+` shows detector on all pages except homepage.
+`excludeUrlRules`- list URLs where you do not want to show detector. `example.com/newsletter` does not show detector on that page.
+
 ```
 {
   "pixel": 400,
@@ -65,7 +80,7 @@ Optional: If you want show warning & redirect when Javascript disabled, add belo
     "isEnabled": true,
     "buttonText": "Become a member",
     "buttonBackgroundColor": "#4cad41",
-    "destinationURL": "https://google.com/"
+    "destinationURL": "https://github.com/tima101/Native-adblock-detector"
   },
   "extraButton2Config": {
     "isEnabled": false,
@@ -75,6 +90,41 @@ Optional: If you want show warning & redirect when Javascript disabled, add belo
   },
   "urlRules": [
     "http://example.com/.+"
+  ],
+  "excludeUrlRules": []
+}
+```
+Here are settings.json file for this page: http://asiatoworld.com/2016/07/17/china-unveils-giant-sculpture-of-chinese-god-of-war-guan-yu/
+
+```
+{
+  "pixel": 400,
+  "uiConfig": {
+    "callToActionText": "Ads help us create great content. Please pause Adblock or whitelist our domain.",
+    "buttonText": "OK, I turned off Adblock",
+    "buttonBackgroundColor": "#4cad41",
+    "footerBackgroundColor": "#0095e8",
+    "canClose": true,
+    "font": "Lato",
+    "showDarkScreen":  true,
+    "modalTitle": "How to turn off",
+    "mobileModalTitle": "How to turn off on Mobile",
+    "afterCheckText": "Your Adblock is still enabled. Please see above instructions."
+  },
+  "extraButtonConfig": {
+    "isEnabled": true,
+    "buttonText": "Become a member",
+    "buttonBackgroundColor": "#4cad41",
+    "destinationURL": "https://github.com/tima101/Native-adblock-detector"
+  },
+  "extraButton2Config": {
+    "isEnabled": false,
+    "buttonText": "Extra button",
+    "buttonBackgroundColor": "#4fad41",
+    "destinationURL": "https://facebook.com/"
+  },
+  "urlRules": [
+    "http://asiatoworld.com/.+"
   ],
   "excludeUrlRules": []
 }
