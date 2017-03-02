@@ -7,10 +7,13 @@ License is The GNU General Public License v3.0. If you like to use this code for
 ##Why we build this detector.
 
 Short answer:
-- 1
-- 2
-- 3
-- 4
+- Publishers and content creators with great content lose revenue and go out of business. Readers are willing to whitelist website or pause Adblock in exchange for great content. Most publishers and content creators have never communicated with visitors directly. Thus this product.
+- Most of publishers and content creators do not know how to implement paywall and membership systems, adblock detector is much easier to implement and it is easier to turn off Adblock than to pay.
+
+Having said, there are many things to consider while implementing detector. We put the best user experience and technology practices into this detector.
+- Adblock, Adblock Plus and other extensions can block detectors which are implemented via external JS code (adblocking is done via blacklisting external resources). Thus we implemented detector natively.
+- Popups are fundamentally evil for user experience. Plus Google punishes SEO of websites with popups. This detector allows visitors to read content and scroll pages for X number of pixels. X is set by website owner. This teaser approach reduces bounce rate by 2X and increase conversion rate by 2X, without hurting site's SEO.
+
 
 Long answer can be found here:
 - https://medium.com/@getdrizzle/adblock-detection-technical-and-ux-considerations-12731873c0df#.uuxv21b0f
@@ -40,4 +43,39 @@ Optional: If you want show warning & redirect when Javascript disabled, add belo
   </div>
   <meta HTTP-EQUIV="REFRESH" content="0; url=<YOUR_URL>"/>
 </noscript
+```
+
+##Settings
+```
+{
+  "pixel": 400,
+  "uiConfig": {
+    "callToActionText": "Ads help us create great content. Please pause Adblock or whitelist our domain.",
+    "buttonText": "OK, I turned off Adblock",
+    "buttonBackgroundColor": "#4cad41",
+    "footerBackgroundColor": "#0095e8",
+    "canClose": true,
+    "font": "Lato",
+    "showDarkScreen":  true,
+    "modalTitle": "How to turn off",
+    "mobileModalTitle": "How to turn off on Mobile",
+    "afterCheckText": "Your Adblock is still enabled. Please see above instructions."
+  },
+  "extraButtonConfig": {
+    "isEnabled": true,
+    "buttonText": "Become a member",
+    "buttonBackgroundColor": "#4cad41",
+    "destinationURL": "https://google.com/"
+  },
+  "extraButton2Config": {
+    "isEnabled": false,
+    "buttonText": "Go2 ad-free for $1/mo",
+    "buttonBackgroundColor": "#4fad41",
+    "destinationURL": "https://facebook.com/"
+  },
+  "urlRules": [
+    "http://example.com/.+"
+  ],
+  "excludeUrlRules": []
+}
 ```
