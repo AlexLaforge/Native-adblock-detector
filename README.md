@@ -5,6 +5,8 @@
 1. Create `settings.json` configuration file. There is an example file 'settings.json.example', copy/paste and change all necessary attributes.
 1. Run `gulp build`.
 1. Copy `./build/script.js`, wrap code into `<script>` tag and paste to the `<head>...</head>` section of your website.
+You can use Google Tag Manager to add code to your website.
+If you are using Wordpress, you can paste code into "Scripts (for the head element)" settin of this plugin: https://wordpress.org/plugins/scripts-n-styles/
 
 Optional: If you want show warning & redirect when Javascript disabled, add below snippet to `<head>...</head>` or `<body>...</body>` section of your website.
 
