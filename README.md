@@ -32,8 +32,11 @@ Having said, there are many things to consider while implementing detector. We p
 
 ##Is it for you?
 Good framework to decide is to ask yourself questions: 
-*"Will I pay for content on my website?"
-"Can I find content similar to mine somewhere else and it's free?"*
+
+*"Will I pay for content on my website?"*
+
+*"Can I find content similar to mine somewhere else and it's free?"*
+
 If answer is No/Yes, then you should not use this detector.
 If answer is Maybe/Maybe or Yes/Not really - then you should use this detector or even install paywall/membership.
 We plan to open-source paywall/membership product as well, stay tuned.
