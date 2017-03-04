@@ -1,32 +1,38 @@
 {
-  "name": "widget",
+  "name": "adblock-detector",
   "version": "1.0.0",
+  "private": true,
   "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint src"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "GNU",
   "devDependencies": {
-    "babel-plugin-transform-object-rest-spread": "^6.5.0",
-    "babel-preset-env": "^1.1.8",
-    "babelify": "^7.2.0",
-    "browserify": "^13.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-env": "^1.1.11",
+    "babelify": "^7.3.0",
+    "browserify": "^14.1.0",
+    "eslint": "^3.16.1",
+    "eslint-config-airbnb-base": "^11.1.0",
+    "eslint-plugin-import": "^2.2.0",
     "gulp": "^3.9.1",
-    "gulp-gzip": "^1.4.0",
-    "gulp-if": "^2.0.0",
-    "gulp-s3": "^0.3.0",
-    "gulp-uglify": "^1.5.3",
-    "html2js-browserify": "^1.1.0",
-    "minimist": "^1.2.0",
-    "sassify": "^0.5.3",
-    "through2": "^2.0.1",
+    "gulp-uglify": "^2.0.1",
+    "sassify": "^2.0.0",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0"
   },
+  "eslintConfig": {
+    "extends": "airbnb-base",
+    "plugins": [
+        "import"
+    ]
+  },
   "babel": {
-    "presets": ["env"],
+    "presets": [
+      "env"
+    ],
     "plugins": [
       "transform-object-rest-spread"
     ]
