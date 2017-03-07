@@ -16,7 +16,7 @@
     "isEnabled": true,
     "buttonText": "Become a member",
     "buttonBackgroundColor": "#4cad41",
-    "destinationURL": "https://google.com/"
+    "destinationURL": "https://github.com/tima101/Native-adblock-detector"
   },
   "extraButton2Config": {
     "isEnabled": false,
