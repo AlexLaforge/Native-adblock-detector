@@ -17,7 +17,7 @@ http://www.math-aids.com/Word_Games/
 
 http://www.oneindia.com/temp/oneindia-drizzle.html
 
-# Why we built this detector.
+## Why we built this detector.
 
 **Short answer:**
 - Publishers and creators with great content are losing revenue and going out of business. However, readers are willing to whitelist a website or pause Adblock in exchange for great content. Most publishers and content creators have never communicated directly with their visitors about this. Thus, we built this product.
