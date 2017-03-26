@@ -1,10 +1,12 @@
 # Native Adblock Detector
 
-## Important
+![adblock detector](https://cloud.githubusercontent.com/assets/10218864/24333917/892eb2da-1215-11e7-82a6-c979395d5e67.png)
+
+## Licenses
 
 License is The GNU General Public License v3.0. If you like to use this code for commercial uses (recover ad revenue on your website or app) and do not want to open and distribute your code, contact me at tima@getdrizzle.com to buy commercial license. Commercial license includes analytics app (https://vimeo.com/206459892), which allows you to monitor number of Adblock users and number of users who decided to turn off Adblock on your website or app. Analytics app has multiple accounts system, which allows you to provide detection and analytics services to multiple websites and apps. If you are an ad network or big publisher with many properties, you can recover ad revenue on any number of your properties with commercial license.
 
-If you're interested in selling content or creating a premium membership on your website, check out our paywall repo:https://github.com/tima101/paywall-membership-subscription
+If you're interested in selling content or creating a premium membership on your website, check out our open-source paywall repo: https://github.com/tima101/paywall-membership-subscription
 
 ## Live examples
 
