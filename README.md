@@ -4,7 +4,7 @@
 
 ## Licenses
 
-License is The GNU General Public License v3.0. If you like to use this code for commercial uses (recover ad revenue on your website or app) and do not want to open and distribute your code, contact me at tima@getdrizzle.com to buy commercial license. Commercial license includes analytics app (https://vimeo.com/206459892), which allows you to monitor number of Adblock users and number of users who decided to turn off Adblock on your website or app. Analytics app has multiple accounts system, which allows you to provide detection and analytics services to multiple websites and apps. If you are an ad network or big publisher with many properties, you can recover ad revenue on any number of your properties with commercial license.
+License is The GNU General Public License v3.0. If you'd like this code for commercial use (recover ad revenue on your website or app) and do not want to open source and distribute your code, contact me at tima@getdrizzle.com to buy a commercial license. The commercial license includes a real-time analytics app (https://vimeo.com/206459892), which allows you to monitor the number of Adblock users and number of users who decide to turn off Adblock on your website or app. The analytics app has a multi-account system, which allows you to provide detection and monitor analytics for multiple websites and apps. If you're an ad network or big publisher with many properties, you can recover ad revenue on any number of your properties with the commercial license.
 
 If you're interested in selling content or creating a premium membership on your website, check out our open-source paywall repo: https://github.com/tima101/paywall-membership-subscription
 
@@ -35,7 +35,7 @@ Having said that, there are many things to consider while implementing an Adbloc
 - https://medium.com/@getdrizzle/big-shifts-in-online-content-monetization-bdebd920bf4b#.ecw88igpq
 
 ## Is it for you?
-Good framework to decide is to ask yourself questions: 
+Good framework to decide is to ask yourself these 2 questions: 
 
 *"Will I pay for content on my website?"*
 
