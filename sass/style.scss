@@ -2,6 +2,12 @@
   overflow-x: initial !important;
 }
 
+/* Solves bug for Safari */
+
+html {
+  height: auto !important;
+}
+
 .drizzle--dark-screen {
   position: fixed !important;
   z-index: 999 !important;
