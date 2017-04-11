@@ -4,7 +4,7 @@
 
 This code allows any website to detect Adblock users and display a custom message for them to disable Adblock. 
 
-If you'd like this code for commercial use (recover ad revenue on your website or app) and do not want to open source and distribute your code, contact kelly@getdrizzle.com. Our commercial license includes a real-time analytics app (https://vimeo.com/206459892), which allows you to monitor the number of Adblock users and number of users who decide to turn off Adblock on your website or app. The analytics app has a multi-account system, which allows you to provide detection and monitor analytics for multiple websites and apps. If you're an ad network or big publisher with many properties, you can recover ad revenue on any number of your properties with the commercial license.
+If you'd like this code for commercial use (recover ad revenue on your website or app) and do not want to open source and distribute your code, contact kelly@getdrizzle.com. Our commercial license includes our Wordpress plugin and a real-time analytics app (https://vimeo.com/206459892), which allows you to monitor the number of Adblock users and number of users who decide to turn off Adblock on your website or app. The analytics app has a multi-account system, which allows you to provide detection and monitor analytics for multiple websites and apps. If you're an ad network or big publisher with many properties, you can recover ad revenue on any number of your properties with the commercial license.
 
 If you're interested in selling content or creating a premium membership on your website, check out our open-source paywall repo: https://github.com/tima101/paywall-membership-subscription
 
