@@ -13,9 +13,7 @@ If you're interested in selling content or creating a premium membership on your
 Go to this page with Adblock enabled, and scroll down the page:
 http://asiatoworld.com/2016/07/17/china-unveils-giant-sculpture-of-chinese-god-of-war-guan-yu/
 
-More examples:
-
-http://www.math-aids.com/Word_Games/
+Another example:
 
 http://www.oneindia.com/temp/oneindia-drizzle.html
 
